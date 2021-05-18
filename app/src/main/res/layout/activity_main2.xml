@@ -1,0 +1,180 @@
+
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tell"
+        style="@style/text_Style.title"
+        android:text="@string/tell" />
+
+    <TextView
+        android:id="@+id/ingredients"
+        style="@style/text_Style"
+        android:text="@string/ingredients" />
+
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:id="@+id/searchView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:iconifiedByDefault="false"/>-->
+
+    <TextView
+        android:id="@+id/veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/veg"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/vegetables"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        />
+
+    <TextView
+        android:id="@+id/fru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/fru"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp" />
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkBox"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="5dp" />-->
+
+<!--    <Spinner-->
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/fruits"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        />
+    <TextView
+        android:id="@+id/gra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/gra"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp" />
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/grains"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        />
+    <TextView
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/me"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/meats"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        />
+    <TextView
+        android:id="@+id/so"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/so"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp" />
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/soups"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        />
+
+    <TextView
+        android:id="@+id/oth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/oth"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp" />
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbuttons"
+            android:text="@string/back" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundbuttons"
+            android:text="@string/save_button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbuttons"
+            android:text="@string/next_button" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

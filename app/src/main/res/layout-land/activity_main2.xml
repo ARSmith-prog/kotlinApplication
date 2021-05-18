@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tell"
+        style="@style/text_Style.title"
+        android:text="@string/tell" />
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_marginTop="30dp"
+        style="@style/text_Style"
+        android:text="@string/ingredients" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout22"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="90dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/veg"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/veg"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/vegetables"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/spinner_background"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fru"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/fru"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/fruits"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/spinner_background"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout66"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/gra"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/gra"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp" />
+
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/grains"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/spinner_background"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/me"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/me"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/meats"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/spinner_background"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout44"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="55dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/so"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/so"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/soups"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/spinner_background"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout55"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="85dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/oth"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/oth"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/spinner_background"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundbuttons"
+            android:text="@string/back" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundbuttons"
+            android:text="@string/save_button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundbuttons"
+            android:text="@string/next_button" />
+
+
+
+</FrameLayout>

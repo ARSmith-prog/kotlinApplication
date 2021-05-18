@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Chowmedown</string>
+
+    <string name="Welcome">Welcome To ChowMeDown!</string>
+    <string name="description">The app that makes it easy to make homemade dog food</string>
+
+    <string name="tell">Tell us what food you already have</string>
+    <string name="ingredients">My Ingredients</string>
+
+    <string name="about_dog">Tell us about your dog!</string>
+    <string name="newabout_dog">yay more dogs!</string>
+
+    <string name="add">Add Another Dog</string>
+    <string name="back">Back</string>
+    <string name="save_button">Save</string>
+    <string name="next_button">Next</string>
+
+
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="weight">Weight:</string>
+    <string name="daily">Meals Daily:</string>
+    <string name="diet">Dietary needs:</string>
+
+    <string name="veg">Vegetables</string>
+    <string name="oth">Other</string>
+    <string name="fru">Fruits</string>
+    <string name="gra">Grains</string>
+    <string name="me">Meats</string>
+    <string name="so">Soups</string>
+
+    <string name="get_started">Tap to Get Started</string>
+    <string name="add_dog">Tap to add dog</string>
+
+    <string-array name="vegetables">
+        <item>Kale</item>
+        <item>carrots</item>
+        <item>Spinach</item>
+        <item>Celery</item>
+    </string-array>
+
+    <string-array name="other">
+        <item>yogurt</item>
+        <item>eggs</item>
+    </string-array>
+
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Cranberries</item>
+        <item>Blueberries</item>
+    </string-array>
+
+    <string-array name="grains">
+        <item>White Rice</item>
+        <item>Brown Rice</item>
+        <item>Quinoa</item>
+        <item>Oats</item>
+    </string-array>
+
+    <string-array name="meats">
+        <item>Red Meat</item>
+        <item>Chicken</item>
+        <item>Turkey</item>
+        <item>Venison</item>
+    </string-array>
+
+    <string-array name="soups">
+        <item>Beef Broth</item>
+        <item>Chicken Broth</item>
+        <item>Veggie Stock</item>
+        <item>Beef Stock</item>
+    </string-array>
+    <string name="title_activity_profile">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main_prof">MainActivity</string>
+
+
+</resources>

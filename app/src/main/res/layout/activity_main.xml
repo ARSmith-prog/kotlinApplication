@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:contentDescription="logo"
+        android:gravity="top"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/Welcome"
+        style="@style/text_Style.title"
+        android:text="@string/Welcome" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/text_Style"
+        android:text="@string/description" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:text="@string/get_started" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_design"
+        android:text="@string/add_dog" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592356220731",
+    "project_id": "chowmedown-61f33",
+    "storage_bucket": "chowmedown-61f33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592356220731:android:257971f09c1a8049a1a11e",
+        "android_client_info": {
+          "package_name": "android.example.chowmedown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592356220731-e3q5nt33lkt6edl4mci8dnvoqje0i1h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiNj-lSFDUMRgHbcX1nNBdCMgK5fcfDMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592356220731-e3q5nt33lkt6edl4mci8dnvoqje0i1h0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
